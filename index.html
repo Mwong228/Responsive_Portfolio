@@ -31,7 +31,6 @@
             margin: 10px;
         }
         .outline {
-            border: 2px solid red;
             padding: 10px;
         }
         #gridmargin {
@@ -40,14 +39,16 @@
     </style>
 
     </div>
+    <!-- Nav displays Contact, Portfolio and About me, however, depending on the size a toggle button will appear to replace info -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand design font" href="#" style="color: white">Michael Wong</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- This section makes it that the details within the button expand to the right-end of the screen when the browser is at a larger format -->
+          <div class="collapse navbar-collapse text-right flex-grow-1" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto flex-nowrap">
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
@@ -69,8 +70,9 @@
                 <br>
             </div>
         </div>
+        <!-- This container adjustes its sizes depending on the brower size of the window -->
         <div class="row">
-            <div class="col-md-8 outline card text-black mb-3">
+            <div class="col-lg-10 col-md-8 outline col-sm-12 card text-black mb-3">
                 <div class="card-header aboutmefont" style="color:teal">About Me</div>
                 <div class="card-body">
                   <p class="card-text"><img class="imgAboutme" src="https://i.gyazo.com/200f110e290444f6da11b5b0d63a2905.png" alt="Profile Picture" height="200px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis ducimus iusto dolorum nulla quaerat dolor sit nam. Numquam officia ipsum amet omnis, sapiente reiciendis ullam neque dolor rem. Atque, enim. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam vitae accusantium reiciendis reprehenderit facere, ducimus quasi assumenda, in voluptate quibusdam illum officia illo error doloremque accusamus, voluptatibus voluptatem fugiat. Deserunt!</p>
@@ -83,9 +85,9 @@
 
     <footer class="nav justify-content-center fixed-bottom bg-dark">
       <li class="nav-item" href="#" style="color: white">
-        <p>Copyright</p>
+        <p>@Copyright</p>
       </li>
-    </footer>
+    </footer> 
     
 
 </body>

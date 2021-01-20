@@ -31,7 +31,6 @@
             margin: 10px;
         }
         .outline {
-            border: 2px solid red;
             padding: 10px;
         }
         #gridmargin {
@@ -39,14 +38,15 @@
         }
     </style>
     </div>
+    <!-- Nav displays Contact, Portfolio and About me, however, depending on the size a toggle button will appear to replace info -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand design font" href="#" style="color: white">Michael Wong</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse text-right flex-grow-1" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 ms-auto flex-nowrap">
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact</a>
               </li>
@@ -68,23 +68,28 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8 outline card text-black mb-3">
-                <div class="card-header aboutmefont" style="color:teal">Contact</div>
+            <!-- responsive grid: if the screen size is large, mid or samll the grid will adjust according -->
+            <div class="col-lg-6 col-md-5 outline col-sm-4 card text-black mb-3">
+                <div class="card-header aboutmefont" style="color:teal">Portfolio</div>
                 <div class="card-body">
-                    <div class="mb-3">
-                        <h3>Name</h3>
-                        <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-                    </div>
-                    <div class="mb-3">
-                        <h3>Email</h3>
-                        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
-                    </div>
-                    <div class="mb-3">
-                        <h3>Message</h3>
-                        <textarea class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1" rows="3"></textarea>
-                    </div>
-                    <div class="btn-group" role="group" aria-label="Basic outlined example">
-                        <button type="button" class="btn btn-outline-primary">Submit</button>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 outline">
+                            <img src="https://via.placeholder.com/300" alt="Placeholder Image" height=200px>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 outline">
+                            <img src="https://via.placeholder.com/300" alt="Placeholder Image" height=200px>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 outline">
+                            <img src="https://via.placeholder.com/300" alt="Placeholder Image" height=200px>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 outline">
+                            <img src="https://via.placeholder.com/300" alt="Placeholder Image" height=200px>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 outline">
+                            <img src="https://via.placeholder.com/300" alt="Placeholder Image" height=200px>
+                        </div>
+
+                        
                     </div>
                 </div>
             </div>
@@ -92,7 +97,7 @@
     </div>
     <footer class="nav justify-content-center fixed-bottom bg-dark">
         <li class="nav-item" href="#" style="color: white">
-          <p>Copyright</p>
+          <p>@Copyright</p>
         </li>
     </footer>
       
