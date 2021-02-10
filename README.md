@@ -1,10 +1,11 @@
 # Responsive_Portfolio
 
-In this brower page, elements within this html will adjust accordingly based on the brower window size (small, medium, large)
+To Visit the Website: https://mwong228.github.io/Responsive_Portfolio
 
-    Within the initial HTML page, you can click on the top navigator section to visit other pages (About me, Portfolio, Contact)
-    Navigator will display links to other HTML pages while minizing the brower window will make a drop down button appear
-    The grid will respond directly will the brower size
-    Bottom footer is made with a sticky element so it will remain at the bottom of the window regardless of brower height
+This webpage showcases a couple of projects I have recently worked on as well as giving a brief description of myself. 
 
-To see the website, visit : https://mwong228.github.io/Responsive_Portfolio
+I have included links to my Resume, LinkedIn and GitHub profile to showcase my experiences and accomplishments.
+
+![AboutMe](https://i.gyazo.com/3c972a57ed5b50ed51f18a07c8b11166.png)
+
+![Portfolio](https://i.gyazo.com/7423039b2c7ba1de11441b5128914e52.png)
